@@ -1,3 +1,5 @@
+package method;
+
 public class Methods2 {
     void m1(int a, char ch){
         System.out.println("m1 method");

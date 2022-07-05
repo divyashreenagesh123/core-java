@@ -1,3 +1,5 @@
+package method;
+
 public class Methods {
     int i=10;
     int j = 20;
