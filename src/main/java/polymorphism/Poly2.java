@@ -55,6 +55,10 @@ class Parent {
         //final int a=5;
         //a = a+1;
         Parent p = new Child();
+        Parent p1 = new Parent();
+
+        Child c1 = (Child) new Parent();//type casting
+
         p.moms(); // coz it is static
         Child c = (Child)p;//TYPE CASTING
         c.mom3();
